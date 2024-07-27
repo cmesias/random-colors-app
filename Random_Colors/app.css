@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: "Concert One", sans-serif;
+}
+
+h1 {
+    font-size: 15rem;
+}
+
+.letters {
+    transition: color 1000ms;
+}
